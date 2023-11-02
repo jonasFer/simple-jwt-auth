@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  postgres:
+    image: postgres:10.5
+    environment:
+      - POSTGRES_DB=db_auth
+      - POSTGRES_USER=db_auth_user
+      - POSTGRES_PASSWORD=db_password
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./docker/postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
+
+
