@@ -1,0 +1,1 @@
+INSERT INTO "user" VALUES (1, 'teste@teste.com', '{"0": "ROLE_ADMIN"}', '$2a$12$ZiZkJSzUvQyEO1I2Z7.9kOEvP68VF8z6RaML60t7TyA61FBd9z1U6');
